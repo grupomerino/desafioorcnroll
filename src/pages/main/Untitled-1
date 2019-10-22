@@ -1,0 +1,31 @@
+ {this.state.track.map(track => ( 
+                    <div key={track.collectionId}>
+
+                        <h3>{track.collectionName}</h3>
+
+                    </div>
+                ))}
+
+
+
+
+
+
+
+
+                 <img
+             src={this.state.artistName.artworkUrl100}  />
+
+            <Title>
+                 <small>Nome do Artista: </small> {this.state.artistName.artistName}
+                <small>Albums do Artista: </small> {this.state.track.length}
+
+            </Title>
+
+
+
+
+
+                display: flex;
+    align-items: center;
+    flex-direction: column;

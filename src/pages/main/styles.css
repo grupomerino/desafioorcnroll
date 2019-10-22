@@ -1,0 +1,187 @@
+ul.artist {
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    align-items: space-between;
+    
+    
+
+
+}
+ul.artist li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul.artist li img {
+   width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius: 4px;
+
+
+}
+
+ul.artist li strong {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #444;
+
+}
+
+
+
+
+
+
+ul.music {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+ul.music li {
+    display: flex;
+    flex-direction: column;
+
+    
+        border-top: 1px solid #eee;
+    
+}
+
+ul.music li img {
+    width: 30px;
+    height: 30px;
+    display:flex;
+    background-size: cover;
+    border-radius: 4px;
+   
+
+
+}
+
+ul.music li strong {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #444;
+
+}
+
+ul.music li strong {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #999;
+
+}
+
+ul.music li span2 {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #999;
+
+}
+
+ul.music li coluna {
+    margin-top: 10px;
+    margin-left: -50px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: space-around;
+}
+
+.divlinhas {
+    display: flex;
+    flex-direction: column;
+}
+
+.divlinhasMisic div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.divlinhasMobile  {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+
+ul.musicMobile {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    
+
+}
+ul.musicMobile li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+        border-top: 1px solid #eee;
+    
+}
+
+ul.musicMobile li img {
+   width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius: 4px;
+    justify-content: center;
+    justify-content: center;
+
+
+}
+
+ul.musicMobile li strong {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #444;
+
+}
+
+ul.musicMobile li strong {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #999;
+
+}
+
+ul.musicMobile li span2 {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #999;
+
+}
+
+ul.musicMobile li coluna {
+    margin-top: 10px;
+    margin-left: -50px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: space-around;
+}
+
+.divisoriaArtista div {
+    display: flex;
+    align-items: center;
+} 
